@@ -5,7 +5,6 @@ ENV LANG C.UTF-8
 RUN set -x && \
     apk add --no-cache \
               openrc \
-              libreswan \
               xl2tpd \
               ppp \
     && mkdir -p /var/run/pluto \
